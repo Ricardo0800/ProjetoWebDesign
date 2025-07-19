@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="estilosglobais.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>home</title>
+    <!-- No arquivo principal (index.html) -->
+<link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/main.min.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/main.min.js'></script>
 </head>
 <body>
     <header>
@@ -15,31 +18,50 @@
         </section>
         <nav>
             <i class="fas fa-bars"></i>
-            <a href="/index.html" class="is-clicked"><h3>INÍCIO</h3></a>
-            <a href="pages/sobre.html"><h3>SOBRE</h3></a>
-            <a href="pages/cursos.html"><h3>CURSOS OFERECIDOS</h3></a>
-            <a href="pages/contato.html"><h3>CONTATO</h3></a>
+            <a href="/pages/inicio.html" class="is-clicked" onclick="navegar('/pages/inicio.html', event)"><h3>INÍCIO</h3></a>
+            <a href="/pages/sobre.html" ><h3>SOBRE</h3></a>
+            <a href="/pages/cursos.html"><h3>CURSOS OFERECIDOS</h3></a>
+            <a href="/pages/contato.html"><h3>CONTATO</h3></a>
         </nav>
     </header>
 
     <div class="main-content">
         <aside>
-            <a href=""><h4>CALENDÁRIO</h4></a> 
-            <a href="pages/sobre.html"><h4>LOGIN/ÁREA DO ALUNO</h4></a> 
+            <a href="pages/calendario.html"><h4>CALENDÁRIO</h4></a> 
+            <a href="pages/sobre.html" ><h4>LOGIN/ÁREA DO ALUNO</h4></a> 
             <a href="pages/cursos.html"><h4>EDITAIS</h4></a> 
             <a href="pages/contato.html"><h4>DOCUMENTOS</h4></a> 
             <a href="pages/contato.html"><h4>LINGUAGENS</h4></a> 
         </aside>
-        <main></main>
+        <main id="conteudo-principal"></main>
     </div>
     <footer>
-        <p>
+        <section  class="footer-right">
+            <p>
             @cmjeducacional <br>
             cmjeducacional@gmail.com.br <br>
             Desenvolvido por Ana Clara Martins, Enzo Vilarinho, Guilherme
             Cunha, Ricardo Felix, Samuel Cecílio e Sarah Araújo - 2025
-        </p>
+            </p>
+             <a href="https://instagram.com/cmjeducacional" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:cmjeducacional@gmail.com.br" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        
+        </section>
+        <section class="footer-left">
+            <h3>Colégio CMJ</h3>
+            <p>Rua Carolina Maria de Jesus, 123 - Centro, São Paulo - SP</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>
+           
+            </p>
+        </section>
     </footer>
+    <script src="scriptsGlobais.js"></script>
+    
 
 </body>
 </html>
