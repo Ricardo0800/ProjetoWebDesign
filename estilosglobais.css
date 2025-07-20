@@ -433,6 +433,13 @@ footer p {
     height: 3rem;
 }
 
+.contato-numero{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
 .login-section{
     display: flex;
     flex-direction: column;
