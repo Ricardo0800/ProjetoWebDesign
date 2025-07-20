@@ -1,0 +1,29 @@
+<section class="calendario-section">
+    <h2 class="calendario-title">Calendário Escolar</h2>
+    <div class="calendario-opcoes">
+        <button class="calendario-btn" id="ver-calendario">
+            📅 Ver Calendário Interativo
+        </button>
+        <a class="calendario-link" href="/documentos/calendario-escolar.pdf" target="_blank">
+            📄 Baixar Calendário em PDF
+        </a>
+    </div>
+    <div id="calendario-interativo" class="calendario-interativo" style="display:none;">
+    <div id="calendar"></div>
+</div>
+</section>
+
+<script>
+    const btn = document.getElementById('ver-calendario');
+    const calendario = document.getElementById('calendario-interativo');
+    btn.addEventListener('click', function() {
+        if (calendario.style.display === 'none') {
+            calendario.style.display = 'block';
+            btn.textContent = '❌ Fechar Calendário Interativo';
+        } else {
+            calendario.style.display = 'none';
+            btn.textContent = '📅 Ver Calendário Interativo';
+        }
+    });
+    
+</script>
