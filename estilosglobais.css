@@ -375,6 +375,99 @@ footer p {
     box-shadow: 0 1px 4px rgba(6, 56, 100, 0.05);
 }
 
+.sobre-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: var(--cinza);
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(6, 56, 100, 0.08);
+    gap: 24px;
+}
+
+.sobre-section h2 {
+    font-size: 2em;
+    color: var(--azul);
+    font-family: Libre Baskerville, serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sobre-section p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px 0px 10px 10px;
+}
+
+.contato-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: var(--cinza);
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(6, 56, 100, 0.08);
+    gap: 24px;
+}
+
+.contato-section h3 {
+    font-size: 1.3em;
+    color: var(--azul);
+    margin-bottom: 6px;
+    font-family: poppins, sans-serif;
+}
+
+.contato-section input{
+    width: 20rem;
+    height: 1.5rem;
+}
+
+.contato-section textarea{
+    width: 30rem;
+    height: 10rem;
+}
+
+.contato-section #botao{
+    width: 5rem !important;
+    height: 3rem;
+}
+
+.contato-numero{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.login-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: var(--cinza);
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(6, 56, 100, 0.08);
+    gap: 24px;
+}
+
+.login-section h3 {
+    font-size: 1.3em;
+    color: var(--azul);
+    margin-bottom: 6px;
+    font-family: poppins, sans-serif;
+}
+
+.login-section input{
+    width: 20rem;
+    height: 1.5rem;
+}
+
+.login-section #botao{
+    width: 5rem !important;
+    height: 3rem;
+}
+
 .fa-instagram{
     color: #E1306C;
     font-size: 24px;
