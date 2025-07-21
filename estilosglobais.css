@@ -57,7 +57,7 @@ header > section {
 header > section > div#logo {
     width: 200px;
     height: 200px;
-    background-image: url('img/Design sem nome (1).svg');
+    background-image: url('img/fav.svg');
     background-size: cover;
     background-position: center;
 }
